@@ -25,6 +25,7 @@ yolo_gui/
       ├── car_02.jpg
       ├── car_08.jpg
       └── diğer sonuç görüntüleri
+      
 ---
 
 ---
