@@ -36,19 +36,12 @@ model.train(
 )
 ```
 
-🖼️ YOLOv8 Eğitim Sonuçları (Görsel Değerlendirme)
+### 📊 Eğitim Sonuç Görseli Aşağıda eğitimden elde edilen sonuçlar gösterilmektedir: ![Training Results](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-22%20233358.png?raw=true)
 
-Aşağıdaki görsel, eğitilen modelin bir test görüntüsü üzerindeki başarıyla tespit ettiği nesne (car) sonuçlarını göstermektedir.
-Model, nesnenin bulunduğu bölgeyi doğru şekilde sınıflandırmış ve bounding box çizimini gerçekleştirmiştir.
+![Detection Result](https://raw.githubusercontent.com/Amirelahmed/YoloV8_Nesne_Tespiti/9493f93bcee88ce914a61de2cb7b37c2b9619b61/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-23%20000540.png)
 
-📊 Eğitim Sonuç Görseli
-## 🖼️ YOLOv8 Eğitim Sonuçları (Görsel Değerlendirme)
 
-Aşağıdaki görsel, eğitilen modelin bir test görüntüsü üzerindeki başarıyla tespit ettiği nesne (car) sonuçlarını göstermektedir.  
-Model, nesnenin bulunduğu bölgeyi doğru şekilde sınıflandırmış ve bounding box çizimini gerçekleştirmiştir.
-
-### 📊 Eğitim Sonuç Görseli
-![Training Results](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-22%20233358.png?raw=true)
+![Detection Result 2](https://raw.githubusercontent.com/Amirelahmed/YoloV8_Nesne_Tespiti/9493f93bcee88ce914a61de2cb7b37c2b9619b61/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-23%20000733.png)
 
 
 ---
