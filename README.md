@@ -36,10 +36,20 @@ model.train(
 )
 ```
 
-### 📊 Eğitim Sonuç Görseli
-Aşağıda eğitimden elde edilen sonuçlar gösterilmektedir:
+🖼️ YOLOv8 Eğitim Sonuçları (Görsel Değerlendirme)
 
+Aşağıdaki görsel, eğitilen modelin bir test görüntüsü üzerindeki başarıyla tespit ettiği nesne (car) sonuçlarını göstermektedir.
+Model, nesnenin bulunduğu bölgeyi doğru şekilde sınıflandırmış ve bounding box çizimini gerçekleştirmiştir.
+
+📊 Eğitim Sonuç Görseli
+## 🖼️ YOLOv8 Eğitim Sonuçları (Görsel Değerlendirme)
+
+Aşağıdaki görsel, eğitilen modelin bir test görüntüsü üzerindeki başarıyla tespit ettiği nesne (car) sonuçlarını göstermektedir.  
+Model, nesnenin bulunduğu bölgeyi doğru şekilde sınıflandırmış ve bounding box çizimini gerçekleştirmiştir.
+
+### 📊 Eğitim Sonuç Görseli
 ![Training Results](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-22%20233358.png?raw=true)
+
 
 ---
 
