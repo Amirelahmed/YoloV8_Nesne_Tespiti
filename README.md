@@ -38,6 +38,8 @@ Google Colab üzerinde şu adımlar uygulandı:
 - `data.yaml` dosyası oluşturuldu
 - YOLOv8s modeli **50 epoch** boyunca eğitildi
 
+![Detection Result](https://raw.githubusercontent.com/Amirelahmed/YoloV8_Nesne_Tespiti/f1fbf3619be767c6e2dc57c4a54c875bdfbf5e46/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-22%20233358.png)
+
 
 ### Eğitim kodu:
 
