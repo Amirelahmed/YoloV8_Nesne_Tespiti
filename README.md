@@ -38,7 +38,9 @@ Google Colab üzerinde şu adımlar uygulandı:
 - `data.yaml` dosyası oluşturuldu
 - YOLOv8s modeli **50 epoch** boyunca eğitildi
 
+
 ### Eğitim kodu:
+
 ```python
 from ultralytics import YOLO
 model = YOLO("yolov8s.pt")
