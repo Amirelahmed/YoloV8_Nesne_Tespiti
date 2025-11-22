@@ -36,8 +36,7 @@ model.train(
 )
 ```
 
-### 📊 Eğitim Sonuç Görseli Aşağıda eğitimden elde edilen sonuçlar gösterilmektedir: ![Training Results](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-22%20233358.png?raw=true)
-
+### 📊 Eğitim Sonuç Görseli Aşağıda eğitimden elde edilen sonuçlar gösterilmektedir: !
 ![Detection Result](https://raw.githubusercontent.com/Amirelahmed/YoloV8_Nesne_Tespiti/9493f93bcee88ce914a61de2cb7b37c2b9619b61/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-23%20000540.png)
 
 
