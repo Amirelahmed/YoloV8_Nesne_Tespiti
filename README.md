@@ -41,11 +41,11 @@ Google Colab üzerinde uygulanan adımlar:
 
 ### 🖥️ Eğitim Kodu:
 
-```python
 from ultralytics import YOLO
 model = YOLO("yolov8s.pt")
 model.train(data="/content/dataset/data.yaml", epochs=50, imgsz=640, batch=8)
-```python
+
+
 
 📸 Örnek Tespit Sonucu
 
