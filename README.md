@@ -48,7 +48,8 @@ model.train(data="/content/dataset/data.yaml", epochs=50, imgsz=640, batch=8)
 
 📸 Örnek Tespit Sonucu
 Aşağıdaki görüntü modelin başarıyla çizdiği bounding box örneklerinden biridir:
-![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/5b7cc0705c4efcf3fa13f5018b1b398312da53f0/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-22%20233358.png)
+![Detection Result](https://raw.githubusercontent.com/Amirelahmed/YoloV8_Nesne_Tespiti/f1fbf3619be767c6e2dc57c4a54c875bdfbf5e46/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-22%20233358.png)
+
 
 👤 Geliştirici Bilgileri
 Ad Soyad: Amir Elahmed
