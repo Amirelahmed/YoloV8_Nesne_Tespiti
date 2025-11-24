@@ -100,20 +100,23 @@ Bu proje için geliştirilen masaüstü uygulaması, kullanıcıya YOLOv8 nesne 
 
 ▶️ Uygulamayı Çalıştırma
 
-Uygulamayı çalıştırmak için aşağıdaki adımları izleyin:
+### ▶️ Uygulamayı Çalıştırma
 
-Adım	Komut
-Gerekli kütüphaneleri yükleyin	pip install pyqt5 ultralytics opencv-python
-Uygulamayı başlatın	python gui_app.py
+Aşağıdaki tablo uygulamayı çalıştırmak için gerekli adımları göstermektedir:
 
-⚠️ Not: best.pt dosyası mutlaka gui_app.py ile aynı klasörde bulunmalıdır.
-Aksi takdirde model yüklenemez.
+| Adım | Komut |
+|------|-------|
+| **Gerekli kütüphaneleri yükleyin** | `pip install pyqt5 ultralytics opencv-python` |
+| **Uygulamayı başlatın** | `python gui_app.py` |
+| **Not** | `best.pt` dosyası **gui_app.py ile aynı klasörde olmalıdır.** |
+
 
 👨‍💻 Geliştirici Bilgileri
 Bilgi	İçerik
 Ad Soyad	Amir Elahmed
 Ders	BLG407 – Makine Öğrenmesi
 Öğretim Üyesi	Doç. Dr. Sinan Uğuz
+
 ⭐ Proje Durumu
 
 Bu proje tamamen çalışır durumdadır.
