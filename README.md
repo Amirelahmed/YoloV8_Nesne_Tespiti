@@ -49,14 +49,14 @@ Her görselin üstünde kısa açıklama bulunmaktadır.
 
 Bu görselde model, yukarıdan çekilmiş bir otopark görüntüsünde tüm araçları yüksek doğrulukla tespit etmektedir.
 
-![Car Example 1](Ekran görüntüsü 2025-11-24 155207.png)
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20155207.png)
 
 
 ### ✔ Örnek 2 — Kapalı alanda araç tespiti
 
 Model, kapalı otopark ortamındaki araçları doğru şekilde algılamaktadır.
 
-![Car Example 2](Ekran görüntüsü 2025-11-24 160339.png)
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160339.png)
 
 
 
@@ -67,25 +67,20 @@ Model, kapalı otopark ortamındaki araçları doğru şekilde algılamaktadır.
 
 Model, açık alandaki yayaları yüksek doğrulukla tespit etmektedir.
 
-![Person Example 1](Ekran görüntüsü 2025-11-24 160444.png)
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160444.png)
 
+### ✔ Örnek 2 — Kapalı şehir ortamında insan tespiti
 
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160513.png)
 
 ---
 
 ## 🚗🧍 3. Karışık Sahne (Araç + İnsan) Tespit Sonuçları  
 ### ✔ Örnek 1 — Araç ve insanların birlikte bulunduğu sahne
 
-Model, hem araçları hem de insanları doğru şekilde tespit etmektedir.
+Model hem soldaki oturan kişiyi hem de yoldaki aracı doğru şekilde tespit etmiştir.
 
-![Mixed Example 1](Ekran görüntüsü 2025-11-24 160513.png)
-
-
-### ✔ Örnek 2 — Yoğun sahnede çoklu nesne tespiti
-
-Model karmaşık sahnelerde hem araçları hem de insanları aynı anda algılayabilmektedir.
-
-![Mixed Example 2](Ekran görüntüsü 2025-11-24 160536.png)
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160536.png)
 
 
 
