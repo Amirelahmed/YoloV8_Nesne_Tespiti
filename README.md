@@ -44,26 +44,27 @@ Aşağıda modelin eğitim sonrası gerçek görüntüler üzerinde elde ettiği
 
 🚗 1. Araç (Car) Tespit Sonuçları
 ✔ Örnek 1
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20155207.png)
 
-![Car Example 1](Ekran görüntüsü 2025-11-24 155207.png)
 
 ✔ Örnek 2
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160339.png)
 
-![Car Example 2](Ekran görüntüsü 2025-11-24 160339.png)
 
 🧍 2. İnsan (Person) Tespit Sonuçları
 ✔ Örnek 1
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160444.png)
 
-![Person Example](Ekran görüntüsü 2025-11-24 160444.png)
+
 
 🚗🧍 3. Karışık Sahne (Araç + İnsan) Tespit Sonuçları
 ✔ Örnek 1
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160513.png)
 
-![Mixed Scene 1](Ekran görüntüsü 2025-11-24 160513.png)
 
 ✔ Örnek 2
+![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160536.png)
 
-![Mixed Scene 2](Ekran görüntüsü 2025-11-24 160536.png)
 
 🖥️ PyQt5 Masaüstü Arayüz
 
