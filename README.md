@@ -7,13 +7,15 @@ Model Google Colab üzerinde eğitilmiş ve sonuçlar PyQt5 masaüstü uygulamas
 
 # 📂 Proje Yapısı
 
+Aşağıdaki tablo, repoda şu anda bulunan gerçek dosyaları göstermektedir:
+
 | Klasör / Dosya | Açıklama |
 |----------------|----------|
-| `gui_app.py`   | PyQt5 GUI arayüzü |
+| `gui_app.py`   | PyQt5 masaüstü uygulaması (GUI) |
 | `best.pt`      | Eğitilmiş YOLOv8 model dosyası |
-| `predictions/` | Tespit örnek görüntüleri |
-| `dataset/`     | Eğitim veri seti |
 | `README.md`    | Proje açıklama dosyası |
+| `Ekran görüntüsü ... .png` | Model test sonuç görüntüleri (5 adet) |
+
 
 ---
 
