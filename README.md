@@ -111,11 +111,16 @@ Aşağıdaki tablo uygulamayı çalıştırmak için gerekli adımları gösterm
 | **Not** | `best.pt` dosyası **gui_app.py ile aynı klasörde olmalıdır.** |
 
 
-👨‍💻 Geliştirici Bilgileri
-Bilgi	İçerik
-Ad Soyad	Amir Elahmed
-Ders	BLG407 – Makine Öğrenmesi
-Öğretim Üyesi	Doç. Dr. Sinan Uğuz
+### 👨‍💻 Geliştirici Bilgileri
+
+Aşağıdaki tablo proje geliştiricisine ait bilgileri göstermektedir:
+
+| Bilgi | İçerik |
+|-------|--------|
+| **Ad Soyad** | Amir Elahmed |
+| **Ders** | BLG407 – Makine Öğrenmesi |
+| **Öğretim Üyesi** | Doç. Dr. Sinan Uğuz |
+
 
 ⭐ Proje Durumu
 
