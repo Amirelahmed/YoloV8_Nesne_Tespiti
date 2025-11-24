@@ -19,6 +19,18 @@ Aşağıdaki tablo, repoda şu anda bulunan gerçek dosyaları göstermektedir:
 
 ---
 
+# 📚 Veri Seti Açıklaması
+
+Bu projede iki sınıftan oluşan özel bir veri seti kullanılmıştır:
+
+- **Car (Araba)**: 100 görüntü  
+- **Person (İnsan)**: 100 görüntü  
+📌 **Toplam:** 200 görüntü
+
+Tüm görüntüler YOLO formatına uygun şekilde LabelImg ile etiketlenmiştir.  
+Her görüntüye karşılık gelen `.txt` dosyası şu formatı içerir:
+
+
 # 🧠 YOLOv8 Model Eğitimi
 
 | Adım | Açıklama |
