@@ -40,26 +40,34 @@ model.train(
 
 📸 Model Sonuçları
 
-Aşağıda modelin eğitim sonrası gerçek görüntüler üzerinde elde ettiği tespit çıktıları bulunmaktadır.
+Aşağıda modelin eğitim sonrası gerçek görüntüler üzerindeki tespit performansı gösterilmiştir.
+Her görselin üstünde kısa açıklama bulunmaktadır.
+
 
 🚗 1. Araç (Car) Tespit Sonuçları
-✔ Örnek 1
+✔ Örnek 1 — Otopark üzerindeki yoğun araç tespiti
+Bu görselde model, yukarıdan çekilmiş bir otopark görüntüsünde tüm araçları yüksek doğrulukla tespit etmektedir.
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20155207.png)
 
-
-✔ Örnek 2
+✔ Örnek 2 — Salon içindeki araç tespiti
+Bu örnekte kapalı mekândaki araçlar başarılı şekilde tespit edilmiştir.
+Model ışık yansımalarına rağmen doğru sınıflandırma yapmıştır.
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160339.png)
 
 
 🧍 2. İnsan (Person) Tespit Sonuçları
-✔ Örnek 1
+✔ Örnek 1 — Şehir içinde yürüyen insanlar
+Model, dış mekânda yürüyen iki kişiyi başarılı şekilde tespit etmiştir.
+Kalabalık olmayan sahnelerde yüksek doğruluk göstermektedir.
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160444.png)
 
-✔ Örnek 2
+✔ Örnek 2 — Kapalı şehir ortamında insan tespiti
+Bu sahnede model, hem öndeki hem de arkadaki kişiyi doğru şekilde algılamıştır.
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160513.png)
 
-🚗🧍 3. Karışık Sahne (Araç + İnsan) Tespit Sonuçları
-✔ Örnek 2
+🚗🧍 3. Karışık Sahne (Araç + İnsan) Tespiti
+✔ Örnek 1 — Araç ve kişinin bulunduğu sahne
+Model hem soldaki oturan kişiyi hem de yoldaki aracı doğru şekilde tespit etmiştir.
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160536.png)
 
 
