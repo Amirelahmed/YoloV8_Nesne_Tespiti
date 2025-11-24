@@ -55,13 +55,10 @@ Aşağıda modelin eğitim sonrası gerçek görüntüler üzerinde elde ettiği
 ✔ Örnek 1
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160444.png)
 
-
-
-🚗🧍 3. Karışık Sahne (Araç + İnsan) Tespit Sonuçları
-✔ Örnek 1
+✔ Örnek 2
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160513.png)
 
-
+🚗🧍 3. Karışık Sahne (Araç + İnsan) Tespit Sonuçları
 ✔ Örnek 2
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160536.png)
 
