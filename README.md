@@ -82,38 +82,49 @@ Model hem soldaki oturan kişiyi hem de yoldaki aracı doğru şekilde tespit et
 
 ![Detection Result](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/aacd920cb6cd4f0349073459b0233d16c8ccd6c4/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-11-24%20160536.png)
 
-
+---
 
 🖥️ PyQt5 Masaüstü Arayüz
 
-Bu GUI uygulaması ile kullanıcı:
+Bu proje için geliştirilen masaüstü uygulaması, kullanıcıya YOLOv8 nesne tespitini kolay ve görsel olarak anlaşılır bir şekilde sunmaktadır.
 
-📤 Görüntü seçebilir
+✅ Uygulamanın Özellikleri
 
-🤖 YOLOv8 modeli ile tespit çalıştırabilir
+📤 Görüntü seçme
 
-🖼️ Önce/Sonra görüntülerini yan yana görüntüleyebilir
+🤖 YOLOv8 ile nesne tespiti çalıştırma
 
-💾 Sonucu kaydedebilir
+🖼️ Önce / Sonra görüntülerinin yan yana gösterilmesi
+
+💾 Tespit sonuçlarını kaydetme
 
 ▶️ Uygulamayı Çalıştırma
+
+Uygulamayı çalıştırmak için aşağıdaki adımları izleyin:
+
 Adım	Komut
-Gerekli kütüphaneler	pip install pyqt5 ultralytics opencv-python
+Gerekli kütüphaneleri yükleyin	pip install pyqt5 ultralytics opencv-python
 Uygulamayı başlatın	python gui_app.py
-Not	best.pt dosyası gui_app.py ile aynı klasörde olmalıdır
+
+⚠️ Not: best.pt dosyası mutlaka gui_app.py ile aynı klasörde bulunmalıdır.
+Aksi takdirde model yüklenemez.
+
 👨‍💻 Geliştirici Bilgileri
-
-Ad Soyad: Amir Elahmed
-Ders: BLG407 – Makine Öğrenmesi
-Öğretim Üyesi: Doç. Dr. Sinan Uğuz
-
+Bilgi	İçerik
+Ad Soyad	Amir Elahmed
+Ders	BLG407 – Makine Öğrenmesi
+Öğretim Üyesi	Doç. Dr. Sinan Uğuz
 ⭐ Proje Durumu
 
 Bu proje tamamen çalışır durumdadır.
-YOLOv8 modeli başarıyla eğitilmiş, test edilmiş ve PyQt5 masaüstü GUI’sine entegre edilmiştir.
 
-⭐ Proje Tamamlandı
+YOLOv8 modeli başarıyla eğitilmiş,
 
-Bu repo, YOLOv8 nesne tespiti ve PyQt5 GUI entegrasyonu için mükemmel bir örnek niteliğindedir.
-Model başarıyla eğitilmiş, test edilmiş ve masaüstü arayüz ile entegre edilmiştir.
+Gerçek görüntüler üzerinde test edilmiş,
 
+PyQt5 masaüstü GUI arayüzü ile entegre edilmiştir.
+
+🏁 Sonuç
+
+Bu repo, YOLOv8 nesne tespiti + PyQt5 GUI entegrasyonunu gösteren tam kapsamlı ve profesyonel bir örnektir.
+Hem akademik teslim için hem de kişisel portföy için mükemmel bir projedir.
