@@ -21,16 +21,24 @@ Aşağıdaki tablo, repoda şu anda bulunan gerçek dosyaları göstermektedir:
 
 # 📚 Veri Seti Açıklaması
 
-Bu projede iki sınıftan oluşan özel bir veri seti kullanılmıştır:
+Bu projede iki sınıftan oluşan özel bir görüntü veri seti kullanılmıştır:
 
-- **Car (Araba)**: 100 görüntü  
-- **Person (İnsan)**: 100 görüntü  
-📌 **Toplam:** 200 görüntü
+Car (Araba): 100 görüntü
 
-Tüm görüntüler YOLO formatına uygun şekilde LabelImg ile etiketlenmiştir.  
-Her görüntüye karşılık gelen `.txt` dosyası şu formatı içerir:
+Person (İnsan): 100 görüntü
+📌 Toplam: 200 görüntü
 
+Tüm görüntüler YOLOv8 formatına uygun olarak LabelImg aracı ile elle etiketlenmiştir.
+Her görüntüye karşılık bir .txt dosyası oluşturulmuş ve bounding box bilgileri aşağıdaki
 
+## YOLO formatında kaydedilmiştir:
+```python
+<class_id> <x_center> <y_center> <width> <height>
+```
+## Örnek bir etiket satırı:
+```python
+0 0.558565 0.535741 0.812500 0.327037
+```
 # 🧠 YOLOv8 Model Eğitimi
 
 | Adım | Açıklama |
@@ -136,17 +144,12 @@ Aşağıdaki tablo proje geliştiricisine ait bilgileri göstermektedir:
 | **Öğretim Üyesi** | Doç. Dr. Sinan Uğuz |
 
 
-⭐ Proje Durumu
-
-Bu proje tamamen çalışır durumdadır.
-
-YOLOv8 modeli başarıyla eğitilmiş,
-
-Gerçek görüntüler üzerinde test edilmiş,
-
-PyQt5 masaüstü GUI arayüzü ile entegre edilmiştir.
-
 🏁 Sonuç
 
-Bu repo, YOLOv8 nesne tespiti + PyQt5 GUI entegrasyonunu gösteren tam kapsamlı ve profesyonel bir örnektir.
-Hem akademik teslim için hem de kişisel portföy için mükemmel bir projedir.
+Bu repo, YOLOv8 ile nesne tespiti ve PyQt5 masaüstü kullanıcı arayüzünün birleşimini gösteren tam kapsamlı ve profesyonel bir projedir.
+
+✔ Model başarıyla eğitilmiş
+✔ Gerçek görüntüler üzerinde test edilmiştir
+✔ PyQt5 arayüzü ile tamamen çalışır durumdadır
+
+Bu proje hem akademik teslim gereksinimlerini eksiksiz karşılar hem de portföy için oldukça güçlü bir örnektir.
