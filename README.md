@@ -1,24 +1,35 @@
-🚀 YOLOv8 ile Araç & İnsan Tespiti + PyQt5 Masaüstü Uygulaması
+# 🚀 YOLOv8 Car & Person Detection – PyQt5 GUI
 
-Bu proje, YOLOv8 derin öğrenme modeli kullanılarak araç (car) ve insan (person) algılama sistemi geliştirmeyi amaçlayan bir makine öğrenmesi uygulamasıdır.
-Model Google Colab üzerinde eğitilmiş olup sonuçlar PyQt5 tabanlı modern bir arayüz ile kullanıcıya sunulmaktadır.
+Bu proje, YOLOv8 derin öğrenme modeli kullanılarak **Araba (Car)** ve **İnsan (Person)** tespiti yapan gelişmiş bir bilgisayarlı görü uygulamasıdır.  
+Model Google Colab üzerinde eğitilmiş ve PyQt5 kullanılarak masaüstü bir arayüz geliştirilmiştir.
 
-📂 Proje Yapısı
-YOLOv8_Detection_Project/
- ├── gui_app.py                # PyQt5 arayüz uygulaması
- ├── best.pt                   # Eğitilen YOLOv8 özel modeli
- ├── README.md                 # Proje dokümantasyonu
- └── predictions/              # Test sonuç görselleri
-      ├── car_02.jpg
-      ├── car_08.jpg
+---
 
-🧠 YOLOv8 Model Eğitimi
+# 📂 Proje Yapısı
 
-Model, Google Colab üzerinde aşağıdaki kodlarla eğitilmiştir:
+| Klasör / Dosya     | Açıklama |
+|--------------------|----------|
+| **gui_app.py**     | PyQt5 arayüz uygulaması |
+| **best.pt**        | Eğitilmiş YOLOv8 modeli |
+| **predictions/**   | Test sonuç görüntüleri |
+| **dataset/**       | Eğitim veri seti |
+| **README.md**      | Proje açıklama dosyası |
 
+---
+
+# 🧠 YOLOv8 Model Eğitimi
+
+| Adım | Açıklama |
+|------|----------|
+| **1️⃣ Gerekli kütüphaneleri yükleyin** | `pip install ultralytics` |
+| **2️⃣ Modeli eğitin** | Aşağıdaki kod Colab üzerinde kullanıldı |
+
+### 📌 Eğitim Kodu
+
+```python
 from ultralytics import YOLO
 
-model = YOLO("yolov8s.pt")
+model = YOLO("yolov8s.pt")  # Pretrained model
 model.train(
     data="/content/dataset/data.yaml",
     epochs=50,
@@ -26,76 +37,49 @@ model.train(
     batch=8
 )
 
-📈 Eğitim Sonuç Özeti
+📸 Model Sonuçları
 
-Eğitim sonunda elde edilen bazı önemli metrikler:
+Aşağıda modelin gerçek görüntüler üzerinde elde ettiği tespit sonuçları bulunmaktadır.
 
-Precision: Yüksek
+🚗 1. Araç (Car) Tespit Sonuçları
+✔ Örnek 1
 
-Recall: Yüksek
+✔ Örnek 2
 
-mAP50: Başarılı
+🧍‍♂️ 2. İnsan (Person) Tespit Sonuçları
+✔ Örnek 1
 
-mAP50-95: İyi seviyede
+🚗🧍 3. Karışık Sahne (Araç + İnsan) Tespiti
+✔ Örnek 1
 
-Model özellikle araç ve insan sınıflarında güçlü bir performans sağlamaktadır.
+✔ Örnek 2
 
-📊 Eğitim Sonuç Görselleri
+🖥️ PyQt5 Masaüstü Arayüz
 
-Aşağıda modelin farklı görüntülerdeki performansı gösterilmektedir:
+Bu GUI uygulaması ile kullanıcı:
 
-🚗 Araç tespiti örneği
+📤 Görüntü yükleyebilir
 
-🚙 Farklı bir sahnede YOLOv8 tespiti
+🤖 YOLOv8 modeliyle tespit yapabilir
 
-🖥️ PyQt5 Arayüz Uygulaması
+🖼️ Önce / Sonra görüntüsünü yan yana görebilir
 
-Arayüz uygulaması kullanıcıya kolay ve modern bir kullanım deneyimi sunar.
+💾 Sonuç görüntüsünü kaydedebilir
 
-⭐ Özellikler:
-
-📁 Görsel seçme
-
-🔍 YOLOv8 ile nesne tespiti
-
-🖼️ İşlenmiş görüntüyü ekranda gösterme
-
-📦 Sonuç görselini kaydetme
-
-🎨 Estetik, sade ve kullanıcı dostu tasarım
-
-🖼️ Arayüzden Örnek
-
-(Buraya ekran görüntüsü ekleyebilirsin.)
-
-📌 Kullanım
-1️⃣ Gerekli kütüphaneleri yükleyin:
-pip install ultralytics
-pip install pyqt5
-pip install opencv-python
-
-2️⃣ Uygulamayı çalıştırın:
-python gui_app.py
-
-🎯 Projenin Amacı
-
-Bu proje kapsamında:
-
-Derin öğrenme tekniklerini kullanarak nesne tespiti yapılmıştır
-
-YOLOv8 gibi modern ve endüstri-standardı bir model kullanılmıştır
-
-Kişiye özel GUI geliştirilerek model çıktıları görsel olarak sunulmuştur
-
-Model hem araç hem de insan sınıflarında yüksek doğruluk göstermektedir
+▶️ Uygulamayı Çalıştırma
+Adım	Komut
+Gerekli kütüphaneler	pip install pyqt5 ultralytics opencv-python
+Uygulamayı başlat	python gui_app.py
+Model dosyası	best.pt ile aynı klasörde olmalı
 
 👨‍💻 Geliştirici Bilgileri
-Bilgi	Detay
-Ad Soyad	Amir Elahmed
-Ders	BLG407 – Makine Öğrenmesi
-Öğretim Üyesi	Doç. Dr. Sinan Uğuz
-Proje	YOLOv8 Nesne Tespiti + PyQt5 GUI
-✅ Sonuç
 
-Bu çalışma, YOLOv8 modeli ve PyQt5 arayüzü sayesinde hem akademik hem de uygulamalı bir makine öğrenmesi projesi olarak güçlü ve profesyonel bir örnek oluşturmaktadır.
-Model, gerçek sahne görüntülerinde yüksek doğrulukla araç ve insanları başarıyla tespit etmektedir.
+Ad Soyad: Amir Elahmed
+Ders: BLG407 – Makine Öğrenmesi
+Öğretim Üyesi: Doç. Dr. Sinan Uğuz
+
+⭐ Proje Tamamlandı
+
+Bu repo, YOLOv8 nesne tespiti ve PyQt5 GUI entegrasyonu için mükemmel bir örnek niteliğindedir.
+Model başarıyla eğitilmiş, test edilmiş ve masaüstü arayüz ile entegre edilmiştir.
+
