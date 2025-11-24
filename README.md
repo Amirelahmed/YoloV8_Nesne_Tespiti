@@ -36,7 +36,7 @@ model.train(
     imgsz=640,
     batch=8
 )
-
+---
 
 📸 Model Sonuçları
 
