@@ -76,11 +76,11 @@ Bu görseller images/ klasörü içinde de bulunmaktadır.
 
 🖱️ 2. Fare (Mouse) Tespit Sonuçları – 2 Örnek
 ✔ Örnek 1
-![Model1 Loss](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Fare/fare_1.png)
+![Model1 Loss](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/e7a147010f06dfb3f27d1907667470e973678dc6/images/Fare/fare_1.png)
 
 ✔ Örnek 2
 ![Model1 Loss]
-(https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Fare/fare_2.png)
+(https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/e7a147010f06dfb3f27d1907667470e973678dc6/images/Fare/fare_2.png)
 
 🕒🖱️ 3. Karışık Sahne (Saat + Fare) – 2 Örnek
 ✔ Örnek 1
