@@ -47,7 +47,9 @@ model.train(
 
 Eğitim sonucunda elde edilen best.pt dosyası masaüstü uygulamasında kullanılmıştır.
 
-### 📂 Dosya Yapısı
+# 📂 Dosya Yapısı
+
+```plaintext
 YoloV8_Nesne_Tespiti/
 │
 ├── dataset/                          # Tarafımdan çekilen ve etiketlenen 220 görüntü
@@ -58,7 +60,7 @@ YoloV8_Nesne_Tespiti/
 │       ├── train/
 │       └── val/
 │
-├── images/                           # Model test sonuçları (çıktı görselleri)
+├── images/                           # Model test sonuç görselleri
 │   ├── Saat/
 │   │   ├── saat_1.png
 │   │   └── saat_2.png
@@ -70,9 +72,10 @@ YoloV8_Nesne_Tespiti/
 │       └── birlikte_2.png
 │
 ├── best.pt                           # Eğitilmiş YOLOv8 model dosyası
-├── gui.py                            # PyQt5 masaüstü nesne tespit arayüzü
+├── gui.py                            # PyQt5 masaüstü tespit arayüzü
 ├── yolo_training.ipynb               # YOLOv8 eğitim notebook dosyası
-└── README.md                         # Proje açıklama dosyası
+└── README.md                         # Proje dokümantasyonu
+
 
 
 🖥️ PyQt5 Masaüstü Uygulaması
