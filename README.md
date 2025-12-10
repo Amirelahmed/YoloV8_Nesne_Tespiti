@@ -18,8 +18,9 @@ Bu projede kullanılan görüntülerin tamamı **kendi telefonumla çektiğim fo
 Tüm görüntüler LabelImg ile YOLO formatında etiketlenmiştir.
 
 ### 📌 YOLO Formatı
+```python
 <class_id> <x_center> <y_center> <width> <height>
-
+```
 ---
 
 # 🧠 YOLOv8 Model Eğitimi
@@ -81,20 +82,8 @@ Bu görseller images/ klasörü içinde de bulunmaktadır.
 
 ✔ Örnek 2
 
-👨‍💻 Geliştirici Bilgileri
-Bilgi	İçerik
-Ad Soyad	Amir Elahmed
-Ders	BLG407 – Makine Öğrenmesi
-Öğretim Üyesi	Doç. Dr. Sinan Uğuz
-GitHub Repo	(bu repo linki buraya yazılır)
-🏁 Sonuç
-
-Bu çalışma kapsamında:
-
-Tamamı tarafımca çekilmiş 220 görüntüden oluşan özgün veri seti oluşturulmuştur.
-
-YOLOv8 modeli başarıyla eğitilmiş ve yüksek doğruluk sonuçları elde edilmiştir.
-
-PyQt5 tabanlı bir masaüstü uygulaması geliştirilmiş ve model entegrasyonu başarıyla tamamlanmıştır.
-
-Bu proje, hem akademik gereksinimleri karşılamakta hem de bilgisayarlı görü alanında güçlü bir uygulama örneği sunmaktadır.
+---
+# 👤 Hazırlayan
+**Amir Elahmed**  
+BLG407 – Makine Öğrenmesi  
+CNN Görüntü Sınıflandırma Projesi
