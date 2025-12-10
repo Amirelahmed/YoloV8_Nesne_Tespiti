@@ -75,8 +75,7 @@ YoloV8_Nesne_Tespiti/
 ├── gui.py                            # PyQt5 masaüstü tespit arayüzü
 ├── yolo_training.ipynb               # YOLOv8 eğitim notebook dosyası
 └── README.md                         # Proje dokümantasyonu
-
-
+```
 
 🖥️ PyQt5 Masaüstü Uygulaması
 
