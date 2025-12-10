@@ -68,10 +68,10 @@ Aşağıdaki örnek sonuçlar, eğitimden sonra modelin gerçek fotoğraflar üz
 Bu görseller images/ klasörü içinde de bulunmaktadır.
 
 ### ⌚ 1. Saat (Clock) Tespit Sonuçları – 2 Örnek
-# Örnek 1 – Saat düzgün açıdan çekilmiş, model yüksek doğrulukla tespit etmiştir.
+### Örnek 1 – Saat düzgün açıdan çekilmiş, model yüksek doğrulukla tespit etmiştir.
 ![Saat 1](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_1.png)
 
-# Örnek 2 – Farklı ışıklandırma altında saat nesnesi başarıyla tespit edilmiştir.
+### Örnek 2 – Farklı ışıklandırma altında saat nesnesi başarıyla tespit edilmiştir.
 ![Saat 2](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_2.png)
 
 ### 🖱️ 2. Fare (Mouse) Tespit Sonuçları – 2 Örnek
