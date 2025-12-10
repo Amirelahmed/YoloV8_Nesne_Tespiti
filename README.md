@@ -69,18 +69,25 @@ Bu görseller images/ klasörü içinde de bulunmaktadır.
 
 ⌚ 1. Saat (Clock) Tespit Sonuçları – 2 Örnek
 ✔ Örnek 1
+![Model1 Loss](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_1.png)
 
 ✔ Örnek 2
+![Model1 Loss](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_2.png)
 
 🖱️ 2. Fare (Mouse) Tespit Sonuçları – 2 Örnek
 ✔ Örnek 1
+![Model1 Loss](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_1.png)
 
 ✔ Örnek 2
+![Model1 Loss]
+(https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_2.png)
 
 🕒🖱️ 3. Karışık Sahne (Saat + Fare) – 2 Örnek
 ✔ Örnek 1
+![Model1 Loss](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Birlikte/birlikte_1.png)
 
 ✔ Örnek 2
+![Model1 Loss](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Birlikte/birlikte_2.png)
 
 ---
 # 👤 Hazırlayan
