@@ -1,7 +1,7 @@
-# 🚀 YOLOv8 Saat & Fare Nesne Tespiti – PyQt5 Masaüstü Uygulaması
+# YOLOv8 Saat & Fare Nesne Tespiti – PyQt5 Masaüstü Uygulaması
 
-Bu proje, BLG407 **Makine Öğrenmesi** dersi kapsamında geliştirilmiş olup YOLOv8 modeli kullanılarak **Saat (Clock)** ve **Fare (Mouse)** nesnelerinin tespit edilmesini amaçlamaktadır.  
-Proje kapsamında kullanılan tüm görüntüler **tarafımdan özel olarak çekilmiş**, manual olarak etiketlenmiş ve model bu özgün veri seti üzerinde eğitilmiştir.
+Bu proje, BLG407 Makine Öğrenmesi dersi kapsamında geliştirilmiş olup YOLOv8 modeli kullanılarak Saat (Clock) ve Fare (Mouse) nesnelerinin tespit edilmesini amaçlamaktadır.
+Tüm görüntüler tarafımdan çekilmiş, manuel olarak etiketlenmiş ve özgün bir veri seti oluşturulmuştur.
 
 ---
 
