@@ -1,13 +1,13 @@
 # YOLOv8 Saat & Fare Nesne Tespiti – PyQt5 Masaüstü Uygulaması
 
-Bu proje, BLG407 Makine Öğrenmesi dersi kapsamında geliştirilmiş olup YOLOv8 modeli kullanılarak Saat (Clock) ve Fare (Mouse) nesnelerinin tespit edilmesini amaçlamaktadır.
-Tüm görüntüler tarafımdan çekilmiş, manuel olarak etiketlenmiş ve özgün bir veri seti oluşturulmuştur.
+Bu proje, BLG407 Makine Öğrenmesi dersi kapsamında geliştirilmiş olup YOLOv8 modeli kullanılarak **Saat (Clock)** ve **Fare (Mouse)** nesnelerinin tespit edilmesini amaçlamaktadır.  
+Proje için kullanılan tüm görüntüler **kendi telefonumla çektiğim özgün fotoğraflardan** oluşmaktadır.
 
 ---
 
 # 📸 Veri Seti (Tarafımdan Çekilmiştir)
 
-Bu projede kullanılan görüntülerin tamamı **kendi telefonumla çektiğim fotoğraflardan** oluşmaktadır.
+Bu projede kullanılan veri seti tamamen bana ait olup farklı açılar, ışık koşulları ve arka plan çeşitliliği dikkate alınarak oluşturulmuştur.
 
 | Sınıf | Görüntü Sayısı |
 |-------|----------------|
@@ -15,18 +15,24 @@ Bu projede kullanılan görüntülerin tamamı **kendi telefonumla çektiğim fo
 | **Fare (Mouse)** | 110 görüntü |
 | **Toplam** | **220 görüntü** |
 
-Tüm görüntüler LabelImg ile YOLO formatında etiketlenmiştir.
+Tüm görüntüler LabelImg aracıyla **YOLO formatında** manuel olarak etiketlenmiştir.
 
-### 📌 YOLO Formatı
+### 📌 YOLO Formatı Örneği
+
 ```python
 <class_id> <x_center> <y_center> <width> <height>
 ```
 ---
 
+
+---
+
 # 🧠 YOLOv8 Model Eğitimi
 
-Model Google Colab üzerinde YOLOv8s tabanlı mimari ile eğitilmiştir.
+Model, Google Colab üzerinde YOLOv8s tabanlı mimari kullanılarak eğitilmiştir.  
+Eğitim sırasında veri artırma (augmentation), 640×640 çözünürlük ve uygun hiperparametreler uygulanmıştır.
 
+### 🟦 Örnek Eğitim Kodu:
 ```python
 from ultralytics import YOLO
 
@@ -41,31 +47,40 @@ model.train(
 
 Eğitim sonucunda elde edilen best.pt dosyası masaüstü uygulamasında kullanılmıştır.
 
+### Proje Yapısı
+YoloV8_Nesne_Tespiti/
+│── dataset/              # Tarafımdan çekilen ve etiketlenen 220 görüntü
+│── images/               # Model test sonuçlarının görselleri
+│── best.pt               # Eğitilmiş YOLOv8 model dosyası
+│── gui.py                # PyQt5 masaüstü arayüz uygulaması
+│── yolo_training.ipynb   # YOLOv8 eğitim notebook dosyası
+│── README.md             # Bu dokümantasyon dosyası
+
 🖥️ PyQt5 Masaüstü Uygulaması
 
 Geliştirilen GUI, kullanıcıya kolay ve anlaşılır bir nesne tespiti deneyimi sunmaktadır.
 
-✔ Uygulama Özellikleri
+### Uygulama Özellikleri
 
-Her formatta görsel yükleme (JPG, PNG, WEBP vb.)
+Her formatta görsel yükleme (JPG, PNG, WEBP, BMP, TIFF)
 
-WEBP dosyalarının otomatik JPEG'e dönüştürülmesi
+WEBP → JPG otomatik dönüşümü
 
 YOLOv8 ile anında nesne tespiti
 
-Orijinal ve tespit edilmiş görüntünün yan yana gösterilmesi
+Orijinal ve tespit edilmiş görüntülerin yan yana gösterilmesi
 
-Sonuç kaydetme özelliği
+Çıktı görselini kaydetme özelliği
 
-▶ Çalıştırma
+### Çalıştırma Komutları
 ```python
-pip install pyqt5 ultralytics opencv-python
+pip install pyqt5 ultralytics opencv-python pillow
 python gui.py
 ```
-Model Test Sonuçları
+### Model Test Sonuçları
 
-Aşağıdaki örnek sonuçlar, eğitimden sonra modelin gerçek fotoğraflar üzerinde verdiği çıktılardır.
-Bu görseller images/ klasörü içinde de bulunmaktadır.
+Aşağıdaki örnek çıktılar, eğitilen modelin gerçek görüntüler üzerinde verdiği tahmin sonuçlarını göstermektedir.
+Bu görsellerin tamamı images/ klasörü içinde de bulunmaktadır.
 
 ## ⌚ 1. Saat (Clock) Tespit Sonuçları – 2 Örnek
 ### Örnek 1 – Saat düzgün açıdan çekilmiş, model yüksek doğrulukla tespit etmiştir.
