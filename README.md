@@ -129,4 +129,4 @@ Bu görsellerin tamamı images/ klasörü içinde de bulunmaktadır.
 # 👤 Hazırlayan
 **Amir Elahmed**  
 BLG407 – Makine Öğrenmesi  
-CNN Görüntü Sınıflandırma Projesi
+YOLOv8 Nesne Tespiti Projesi
