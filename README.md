@@ -105,25 +105,25 @@ Bu görsellerin tamamı images/ klasörü içinde de bulunmaktadır.
 
 ## ⌚ 1. Saat (Clock) Tespit Sonuçları – 2 Örnek
 ### Örnek 1 – Saat düzgün açıdan çekilmiş, model yüksek doğrulukla tespit etmiştir.
-![Saat 1](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_1.png)
+![Saat 1](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/9a96353737fb2e7c3a046a2738ae83f8c7016fa7/images/Saat/saat_1.png)
 
 ### Örnek 2 – Farklı ışıklandırma altında saat nesnesi başarıyla tespit edilmiştir.
-![Saat 2](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Saat/saat_2.png)
+![Saat 2](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/9a96353737fb2e7c3a046a2738ae83f8c7016fa7/images/Saat/saat_2.png)
 
 ## 🖱️ 2. Fare (Mouse) Tespit Sonuçları – 2 Örnek
 # Örnek 1 – Fare halı üzerinde küçük bir nesne olmasına rağmen doğru tespit edilmiştir.
-![Fare 1](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/e7a147010f06dfb3f27d1907667470e973678dc6/images/Fare/fare_1.png)
+![Fare 1](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/9a96353737fb2e7c3a046a2738ae83f8c7016fa7/images/Fare/fare_1.png)
 
 ### Örnek 2 – Farklı zemin dokusunda fareyi başarıyla algılamıştır.
-![Fare 2](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/e7a147010f06dfb3f27d1907667470e973678dc6/images/Fare/fare_2.png?raw=true)
+![Fare 2](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/9a96353737fb2e7c3a046a2738ae83f8c7016fa7/images/Fare/fare_2.png)
 
 
 ## 🕒🖱️ 3. Karışık Sahne (Saat + Fare) – 2 Örnek
 ### Örnek 1 – Tek sahnede yalnızca saat bulunan görüntü başarılı şekilde tespit edilmiştir.
-![Birlikte 1](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Birlikte/birlikte_1.png)
+![Birlikte 1](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/9a96353737fb2e7c3a046a2738ae83f8c7016fa7/images/Birlikte/birlikte_1.png)
 
 ### Örnek 2 – Hem saat hem fare tek kare içinde olup model her iki nesneyi de doğru tanımıştır.
-![Birlikte 2](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/248fd7380760f01e573ed880f668d5ebc0cc953d/images/Birlikte/birlikte_2.png)
+![Birlikte 2](https://github.com/Amirelahmed/YoloV8_Nesne_Tespiti/blob/9a96353737fb2e7c3a046a2738ae83f8c7016fa7/images/Birlikte/birlikte_2.png)
 
 ---
 # 👤 Hazırlayan
